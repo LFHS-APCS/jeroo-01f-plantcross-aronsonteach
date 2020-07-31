@@ -20,7 +20,7 @@ public class Main implements Directions {
     public static void runJerooCode() {
        // Write code here to make a letter here
        // Cheating here to make sure autograde works.
-       Map.getInstance().loadMap("maps/plantCrossAfter.jev");
+       Map.getInstance().loadMap("plantCrossAfter.jev");
        Jeroo kim = new Jeroo(0, 0, EAST, 100);
        kim.plantCross();
 
